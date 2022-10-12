@@ -15,6 +15,6 @@ jobs:
     runs-on: macos-12
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Test build
         run: echo "tested build nicely"
